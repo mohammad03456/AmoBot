@@ -48,12 +48,32 @@ i18n.configure({
 /**
  * Client Events
  */
-client.on("ready", () => {
-  console.log(`${client.user.username} ready!`);
-  client.user.setActivity(`${PREFIX}help and ${PREFIX}play`, { type: "LISTENING" });
+client.on('ready', () => {
+    console.log(`${client.user.tag} is online`);
+    client.user.setStatus("idle");
+    setInterval(() => {
+        client.user.setActivity(' +help  ', { type: "LISTENING" })
+        const channel = client.channels.cache.get("813341798604079124");
+        if (!channel) return console.error("Channeli Vojod Nadarad");
+        channel.join().then(connection => {
+            console.log("Man Be Channel Join Shodam");
+        }).catch(e => {
+
+            console.error(e);
+        })
+    }, 3000);
 });
-client.on("warn", (info) => console.log(info));
-client.on("error", console.error);
+
+client.on('guildCreate', giuld => {
+    let logclient = client.channels.cache.get('854726922947788810').send("بات به سرور `" + giuld.name + "` جوين شد\<a:807927229556326412:854717387650367518>")
+    console.log('bot dar server ' + giuld.name + "join shod")
+});
+
+
+client.on('guildDelete', giuld => {
+    let logclient = client.channels.cache.get('854726922947788810').send("بات از سرور `" + giuld.name + "` خارج شد\<a:819139805392666624:854716751065382922>")
+    console.log('bot az server ' + giuld.name + 'leave dad')
+});
 
 /**
  * Import all commands
