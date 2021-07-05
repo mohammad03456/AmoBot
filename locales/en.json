@@ -9,48 +9,48 @@
     "description": "List all clips"
   },
   "help": {
-    "description": "Display all commands and descriptions",
+    "description": " <a:848984845190168586:860239044297359380> Display all commands and descriptions",
     "embedTitle": "{botname} Help",
-    "embedDescription": "List of all commands"
+    "embedDescription": " <a:699189090104508427:812971753743056928> List of all commands"
   },
   "invite": {
-    "description": "Send bot invite link"
+    "description": " <a:848991762155569153:860240471237197875> Send bot invite link"
   },
   "loop": {
-    "description": "Toggle music loop",
+    "description": " <a:762733209209274368:812971740543320134> Toggle music loop",
     "errorNotQueue": "There is nothing playing.",
     "result": "Loop is now {loop}"
   },
   "lyrics": {
-    "description": "Get lyrics for the currently playing song",
+    "description": " <a:793365703428276245:860239588840570900> Get lyrics for the currently playing song",
     "errorNotQueue": "There is nothing playing.",
     "lyricsNotFound": "No lyrics found for {title}.",
     "embedTitle": "{title} - Lyrics"
   },
   "move": {
-    "description": "Move songs around in the queue",
+    "description": " <a:819139805392666624:854716751065382922> Move songs around in the queue",
     "errorNotQueue": "There is no queue.",
     "usagesReply": "Usage: {prefix}move <Queue Number>",
     "result": "<@{author}> 🚚 moved **{title}** to {index} in the queue."
   },
   "nowplaying": {
-    "description": "Show now playing song",
+    "description": " <a:807927229556326412:854717387650367518> Show now playing song",
     "errorNotQueue": "There is nothing playing.",
     "embedTitle": "Now playing",
     "live": " ◉ LIVE",
     "timeRemaining": "Time Remaining: {time}"
   },
   "pause": {
-    "description": "Pause the currently playing music",
+    "description": " ⏸ Pause the currently playing music",
     "errorNotQueue": "There is nothing playing.",
     "result": "<@{author}> ⏸ paused the music."
   },
   "ping": {
-    "description": "Show the bot's average ping",
+    "description": " <a:756412227506143293:812971708486123521> Show the bot's average ping",
     "result": "📈 Average ping to API: {ping} ms"
   },
   "play": {
-    "description": "Plays audio from YouTube or Soundcloud",
+    "description": " <a:796818372322787410:812971644129771550> Plays audio from YouTube or Soundcloud",
     "errorNotChannel": "You need to join a voice channel first!",
     "errorNotInSameChannel": "You must be in the same channel as {user}",
     "usageReply": "Usage: {prefix}play <YouTube URL | Video Name | Soundcloud URL>",
@@ -74,7 +74,7 @@
     "songNotFound": "Audio Not Found"
   },
   "playlist": {
-    "description": "Play a playlist from youtube",
+    "description": " ⌛ Play a playlist from youtube",
     "usagesReply": "Usage: {prefix}playlist <YouTube Playlist URL | Playlist Name>",
     "errorNotChannel": "You need to join a voice channel first!",
     "errorNotInSameChannel": "You must be in the same channel as {user}",
@@ -92,7 +92,7 @@
     "result": "Message pruning is {result}"
   },
   "queue": {
-    "description": "Show the music queue and now playing.",
+    "description": " <a:848991759732310076:860239032532729867> Show the music queue and now playing.",
     "missingPermissionMessage": "Missing permission to manage messages or add reactions",
     "errorNotQueue": "❌ **Nothing playing in this server**",
     "currentPage": "Current Page - ",
@@ -100,7 +100,7 @@
     "embedCurrentSong": "**Current Song - [{title}]({url})**\n\n{info}"
   },
   "remove": {
-    "description": "Remove song from the queue",
+    "description": " :curly_loop: Remove song from the queue",
     "errorNotQueue": "There is no queue.",
     "usageReply": "Usage: {prefix}remove <Queue Number>",
     "result": "<@{author}> ❌ removed **{title}** from the queue."
@@ -120,33 +120,33 @@
     "resultEmbedDesc": "Results for: {search}"
   },
   "shuffle": {
-    "description": "Shuffle queue",
+    "description": " :currency_exchange: Shuffle queue",
     "errorNotQueue": "There is no queue.",
     "result": "<@{author}> 🔀 shuffled the queue"
   },
   "skip": {
-    "description": "Skip the currently playing song",
+    "description": "<a:855411887281274880:860239032638111756> Skip the currently playing song",
     "errorNotQueue": "There is nothing playing that I could skip for you.",
     "result": "<@{author}> ⏭ skipped the song"
   },
   "skipto": {
-    "description": "Skip to the selected queue number",
+    "description": " <a:855411887281274880:860239032638111756><a:855411887281274880:860239032638111756> Skip to the selected queue number",
     "usageReply": "Usage: {prefix}{name} <Queue Number>",
     "errorNotQueue": "There is no queue.",
     "errorNotValid": "The queue is only {length} songs long!",
     "result": "<@{author}> ⏭ skipped {arg} songs"
   },
   "stop": {
-    "description": "Stops the music",
+    "description": " <a:699939297037516800:860245076226342922> Stops the music",
     "errorNotQueue": "There is nothing playing.",
     "result": "<@{author}> ⏹ stopped the music!"
   },
   "uptime": {
-    "description": "Check the uptime",
+    "description": " 💎 Check the uptime",
     "result": "Uptime: `{days} day(s),{hours} hours, {minutes} minutes, {seconds} seconds`"
   },
   "volume": {
-    "description": "Change volume of currently playing music",
+    "description": " <a:756412225371111475:812971638764470283> Change volume of currently playing music",
     "errorNotQueue": "There is nothing playing.",
     "errorNotChannel": "You need to join a voice channel first!",
     "currentVolume": "🔊 The current volume is: **{volume}%**",
