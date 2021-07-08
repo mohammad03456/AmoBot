@@ -1,0 +1,12 @@
+{
+  "TOKEN": "NzgyOTg5NTQwNTYxOTExODA5.X8UN1Q._l7usKb3ZgE6LjI08xsAGXRy9Js",
+  "YOUTUBE_API_KEY": "AIzaSyCO8xRum9yXgQ7_Sj2td3WIn5dygquqIMs",
+  "SOUNDCLOUD_CLIENT_ID": "",
+  "MAX_PLAYLIST_SIZE": 10,
+  "PREFIX": "+",
+  "LOCALE": "en",
+  "support_server": "https://discord.gg/k2x5jgdq2P",
+  "PRUNING": true,
+  "STAY_TIME": 30,
+  "DEFAULT_VOLUME": 100
+}
