@@ -56,11 +56,11 @@
     "usageReply": "Usage: {prefix}play <YouTube URL | Video Name | Soundcloud URL>",
     "missingPermissionConnect": "Cannot connect to voice channel, missing permissions",
     "missingPermissionSpeak": "I cannot speak in this voice channel, make sure I have the proper permissions!",
-    "queueAdded": "✅ **{title}** has been added to the queue by <@{author}>",
+    "queueAdded": " <a:699189001776791603:699189001776791603> **{title}** has been added to the queue by <@{author}>",
     "cantJoinChannel": "Could not join the channel: {error}",
-    "queueEnded": "❌ Music queue ended.",
+    "queueEnded": "<a:699939297037516800:699939297037516800> Music queue ended.",
     "queueError": "Error: {error}",
-    "startedPlaying": "🎶 Started playing: **{title}** ",
+    "startedPlaying": "<a:756424061814571079:756424061814571079> Started playing: **{title}** ",
     "skipSong": "<@{author}> ⏩ skipped the song",
     "pauseSong": "<@{author}> ⏸ paused the music.",
     "resumeSong": "<@{author}> ▶ resumed the music!",
@@ -94,7 +94,7 @@
   "queue": {
     "description": " <a:848991759732310076:860239032532729867> Show the music queue and now playing.",
     "missingPermissionMessage": "Missing permission to manage messages or add reactions",
-    "errorNotQueue": "❌ **Nothing playing in this server**",
+    "errorNotQueue": "<a:699939297037516800:699939297037516800> **Nothing playing in this server**",
     "currentPage": "Current Page - ",
     "embedTitle": "Song Queue\n",
     "embedCurrentSong": "**Current Song - [{title}]({url})**\n\n{info}"
@@ -103,7 +103,7 @@
     "description": " :curly_loop: Remove song from the queue",
     "errorNotQueue": "There is no queue.",
     "usageReply": "Usage: {prefix}remove <Queue Number>",
-    "result": "<@{author}> ❌ removed **{title}** from the queue."
+    "result": "<@{author}> <a:699939297037516800:699939297037516800> removed **{title}** from the queue."
   },
   "resume": {
     "description": "Resume currently playing music",
